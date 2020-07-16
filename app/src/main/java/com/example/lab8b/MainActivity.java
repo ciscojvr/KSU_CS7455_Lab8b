@@ -46,8 +46,10 @@ public class MainActivity extends AppCompatActivity {
                 stringBuilder.append(cursor.getLong(0)+ ", " + cursor.getString(1) + ", " + cursor.getString(2) + "\n");
             }
             cursor.close();
+            setCount();
+        } else {
+            studentCount.setText("Total Student Count: 0");
         }
-        setCount();
         students.setText(stringBuilder.toString());
     }
 
