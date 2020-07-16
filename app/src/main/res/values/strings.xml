@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">Lab8b</string>
     <string name="get_all_students">Get All Students</string>
-    <string name="total_student_count">Total Student Count: 0</string>
 </resources>

@@ -22,8 +22,7 @@
             android:id="@+id/textViewStudentCount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/total_student_count" />
+            android:gravity="center" />
 
         <TextView
             android:id="@+id/textViewStudents"
